@@ -1,5 +1,5 @@
 # BetterTouchTool-SLite-Preset
-**Introduction**
+## Introduction
 
 SLite is a preset of BetterTouchTool inspired by GoldenChaos and many other presets.
 
@@ -16,7 +16,7 @@ I built the preset based on GoldenChaos and it works the same, except that it ta
 Some features I added myself may be interesting to you, such as the always showing function keys.
 
 
-**Showcase and Usage**
+## Showcase and Usage
 
 The main interface of SLite is used as a dock, plus calendar preview, reminder, emoji, clipboard, language, time, battery, and a button to toggle the BTT custom touch bar off.
 <img width="1004" alt="image" src="https://user-images.githubusercontent.com/84777573/128682830-409325ec-37fc-4206-8ed0-0c0ac21efc47.png">
@@ -30,16 +30,18 @@ I made some tweaks about the way to exit the groups, and added "history" button 
 The right most icon from AquaTouch is used to toggle the BTT custom touch bar off. (Ironically, this is the only part where I used their design).
 
 
-Gestures:
+#### Gestures:
 I only use two-finger scrolling to modify sound, screen brightness, and eyboard illustration level. It modifies sound when holding no key, screen brightness when holding "command" key, and keyboard illumination level when holding "option" key. I found it annoying to use three or four fingers to do these things.
 
 
-If you hold the **command** key, it shows this:
+#### If you hold the **command** key, it shows this:
 <img width="1004" alt="image" src="https://user-images.githubusercontent.com/84777573/128683818-11e4dc96-e698-45f8-88e0-302d8aae1c83.png">
 
 From the left to the right, these buttons are:
 1. Funtion keys group. They remain open after you open them whatever you do. This is my way of solving the problem "MacBook Pro doesn't have a way to let F1 to F12 show all the time with a key toggle". This group is closed by pressing the "X" button
 <img width="1004" alt="image" src="https://user-images.githubusercontent.com/84777573/128685127-eabb5f3c-268b-4de3-baea-430fafeb3076.png">
+*Update: newer version:*
+![Touch Bar Shot 2021-09-26 at 7 08 46 PM](https://user-images.githubusercontent.com/84777573/134805930-3a9d6df6-32df-42f3-8e62-0bb1053c0910.jpg)
 
 2. Show menubar here. Shows the menubar where your pointer is.
 <img width="1253" alt="image" src="https://user-images.githubusercontent.com/84777573/128685455-4b9b4ce1-e54e-4398-acad-fcac9617df74.png">
@@ -63,14 +65,14 @@ From the left to the right, these buttons are:
 11. BetterTouchTool UI. Press this to change BetterTouchTool settings.
 
 
-If you hold the **option** key, it shows window snapping options:
+#### If you hold the **option** key, it shows window snapping options:
 <img width="1004" alt="image" src="https://user-images.githubusercontent.com/84777573/128686257-cb777289-dd50-4519-a5d3-bd3f7a6ab708.png">
 
 These are just straight from GoldenChaos with size changes. Try them yourself and you know what they do.
 
 
-If you hold the **control** key, it shows this:
-<img width="1004" alt="image" src="https://user-images.githubusercontent.com/84777573/128686582-b618a321-d744-4ae7-89d8-441b12d4c0f9.png">
+#### If you hold the **control** key, it shows this:
+![Touch Bar Shot 2021-09-26 at 7 29 16 PM](https://user-images.githubusercontent.com/84777573/134805883-8bea7136-83aa-4346-a7ef-1e153f671a9a.png)
 
 From the left to the right, they are:
 1. Lookup word under cursor. Same as "Look up & data detectors" in your Trackpad preferences.
@@ -85,16 +87,18 @@ From the left to the right, they are:
 
 6. Move right a space. Switch to the "Desktop" to the right of the current shown one.
 
-7. Mute speaker. From GoldenChaos.
+7. Greyscale mode.*(new)*
 
-8. Close window below cursor.
+8. Mute speaker. From GoldenChaos.
 
-9. Empty trash.
+9. Close window below cursor.
 
-10. Quit app below cursor.
+10. Empty trash.
+
+11. Quit app below cursor.
 
 
-**Installation**
+## Installation
 
 This part focuses on how to install SLite.
 
@@ -122,17 +126,17 @@ One last thing to check: go to "Touch Bar Settings" (Command + ,) and make sure 
 This way you can easily toggle the custom touch bar on after you toggle it off.
 
 
-**Performance**
+## Performance
 
 It takes roughly 1% of CPU and 56MB of memory on my 2019 MacBook Pro with intel i5 core. And it loads up in 1 second after the computer waking up from sleep.
 
 
-**Compatibility**
+## Compatibility
 
 You can add whatever other preset along with SLite as you like. Specifically presets for specific apps would override SLite.
 
 
-**Contact Author**
+## Contact Author
 
 My email: ramonamurphynsy25@gmail.com
 Feedbacks and suggestions are appreciated.
